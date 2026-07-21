@@ -45,6 +45,13 @@ const paletteTheme = createTheme({
     text: { primary: '#1F2937', secondary: '#6B7280' },
   },
   spacing: 8,
+  components: {
+    MuiButtonBase: {
+      defaultProps: {
+        disableRipple: true,
+      },
+    },
+  },
 });
 
 const initialForm = {
